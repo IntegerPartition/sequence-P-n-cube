@@ -8,4 +8,4 @@ holds is also a partition of $n = a_1 + · · · + a_k$. \
 So we look at this equation from a different perspective. Instead of counting the number of sets with length $n$ for which the equation holds, we count the number of sets whose sum is equal to n and for which $a^3_1 +· · ·+a^3_k= n^2$. We denote this number by $P(n)_{cube}$. Using the parallel implementation, we calculate $P(n)cube$ for $n = 1, . . . , 220$. The computations took less than 12 hours using the parallel implementation with subsets on the same system. The values of $P(n)cube$ also form an integer sequence. The computational results show that for $8 < n ≤ 220$ and $n ≡ 2$ (mod 3) there are no partitions for which the equation holds. \
 The sequence (1, 0, 1, 1, 0, 1, 0, 0, 2, 1, 0, 2, 1, 0, 2, 5, 0, 3, 4, 0) contains the first 20 members of the integer sequence, that give the number of partitions, for which the upper equation holds.
 
-The full sequence for n = 1, . . . , 220 it's uploaded as document **"partitions-sums-square"** in this repository. 
+The full sequence for n = 10, . . . , 220 it's uploaded as document **"partitions-sums-square"** in this repository. 
